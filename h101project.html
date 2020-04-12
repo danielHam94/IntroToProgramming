@@ -1,0 +1,109 @@
+<html>
+	<head>
+	<link href="h101project.css" rel="stylesheet" type="text/css"/>
+	<title> </title>
+	</head>
+	<body>
+	<div id="navigation">
+		<div>
+			<ul>
+				<li> <a id="active" href="h101project.html"> Home </a> </li>
+				<li> <a href="solution.html"> Solution </a> </li>
+				<li> <a href="research.html"> Research </a> </li>
+				<li> <a href="dataviz.html"> Data and Visualization </a> </li>
+				<li> <a href="presentation.html"> Presentation </a> </li>
+			</ul>
+		</div>
+	</div>
+	</br>
+	</br>
+	</br>
+	<div id="button">
+		<div>
+			<button type="button" id="button_1" onclick="name_color()"> Click to Change Our Team Name Color </button>
+		</div>
+	</div>
+	</br>
+	<div id="intro">
+		<div>
+			<div id="team_name">
+				<div>
+					<h1> <font id="team_color" color="red"> TEAM INFO 101.1 FM </font> </h1>
+				</div>
+			</div>
+			</br>
+			<img id="pic" onclick="change_pic()" src="images/grouppic2.jpg"/>
+			<p> From Right to Left: Sung Hoon Ham, Ben Rich, Thomas Langston, Karina Bhargava </p>
+			<p> <font color="red"> Click on our Image to Change it! </font> </p>
+		</div>
+	</div>
+	<div id="main">
+		<div>
+			<h1> PROBLEM STATEMENT </h1>
+				<p> We were contacted to solve a serious problem within the Indiana University radio station. College students are a key audience for the station and ensuring that the DJs representing IU radio reflect the demographics of campus. We found through primary research that almost all radio hosts for IU radio come from the Media and Jacobs schools leaving most student interests under represented (Primary research). In fact, the leading reason radio stations across America are losing listeners is a lack of diversity in programming and on-air personalities (Picard). Because the demand for academically diverse demographic of DJs is so high we implemented the Radio Technology Initiative.</p>
+			<h1> SCOPE OF THE PROBLEM </h1>
+				<p> "The university's radio station recruits and invites new DJs and committee members every semester. They want to ensure they are reaching every demographic and group on campus. They currently recruit people via social media, word of mouth and call out meetings." </p>
+			<h1> WHAT WE DID </h1>
+				<p> The process that our team took to come up with the solution started with research, lots and lots of research. We first conducted a survey of students at IU and asked them questions about individuals involved in. You can find the results of our survey on the data and visualizations page.We then researched to figure out what IU Students wanted from IU Radio. You can read about the articles we found on our research page. The last step was to form a solution to this difficult problem, find it on our solutions page. </p>
+		</div>
+	</div>
+	<hr/>
+	<div id="websites">
+		<div>
+			<a href="http://pages.iu.edu/~karbharg/h101/index.html"> <img src="images/karina.jpg"/> </a>
+			<p> Click this image to go to Karina's website </p>
+			</br>
+			<a href="http://pages.iu.edu/~hamsu/h101/index.html"> <img src="images/sung.jpg"/> </a>
+			<p> Click this image to go to Sung's website </p>
+			</br>
+			<a href="http://pages.iu.edu/~telangst/h101/index.html"> <img src="images/thomas.jpg"/> </a>
+			<p> Click this image to go to Thomas's website </p>
+			</br>
+			<a href="http://pages.iu.edu/~benlrich/h101/index.html"> <img src="images/ben.jpg"/> </a>
+			<p> Click this image to go to Ben's website </p>
+		</div>
+	</div>
+
+	</br>
+	</br>
+	
+		
+	<hr/>
+	<div id="footer">
+		<div>
+			<p> "I certify that the content included in this portfolio/website is my own original work (or is cited accurately) and accurate to my knowledge. Work included which was conducted as part of a team or other group is indicated and attributed as such the other team members are named and a true description of my role in the project is included." </p>
+		</div>
+	</div>
+			
+	
+	<script>
+	
+	function change_pic() {
+		var image = document.getElementById("pic");
+		var pic_2 = "images/grouppic2.jpg";
+		var flip_2 = "images/grouppic2_flip1.jpg";
+		var flip_22 = "images/grouppic2_flip2.jpg";
+		var flip_222 = "images/grouppic2_flip3.jpg";
+		var pic_1 = "images/grouppic1.jpg";
+		var flip_1 = "images/grouppic1_flip1.jpg";
+		var flip_11 = "images/grouppic1_flip2.jpg";
+		var flip_111 = "images/grouppic1_flip3.jpg";	
+		if (image.src.match(pic_2)) {
+			image.src = pic_1;
+			} else { 
+				image.src = pic_2;
+			}
+		}
+	function name_color() {
+		var color = document.getElementById("team_color");
+		if (color.color.match("red")) {
+			color.color = "white";
+			} else {
+				color.color = "red";
+			}
+		}
+	
+	</script>
+	
+	</body>
+</html>

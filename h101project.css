@@ -1,0 +1,59 @@
+body {
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+
+#button {
+	text-align: left;
+}
+
+#navigation {
+
+}
+
+#main_research {
+	text-align:left;
+}
+
+#active {
+	background-color: green;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	border: 2px solid white;
+	width: 100%;
+	position: fixed;
+	background-color: grey;
+}
+
+li {
+	float: left;
+	border-right: 1px solid white;
+}
+
+li a {
+	display: block;
+	color: black;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-align: center;
+}
+
+li a:hover {
+    background-color: black;
+    color: red;	
+}
+
+#intro {
+	color: white;
+}
+
+#main {
+	color: white;
+}
+
