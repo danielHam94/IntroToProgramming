@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>JavaScript 1</title>
+	</head>
+	<body>
+	<h1> JavaScript 1 </h1>
+	<p id="script1">This is my first JavaScript!</p>
+	<button type="button" onclick="newFunction()">Click here!</button>
+	
+	<h1>JavaScript + CSS</h1>
+	<p id="styleChange1">JavaScript can change style too!</p>
+	<button type="button" onclick="styleChange1()">Click Me!</button>
+	
+	<h2>Trying it one more time!</h2>
+	<p id="styleChange2">Trying it one more time!</p>
+	<button type="button" onclick="styleChange2 ()">Click Me!</button>
+
+	<h2>JavaScript Homework</h2>
+	<p id="styleChange3">Yesterday, I was so lazy. I didn't feel like doing my homework at all. I just watched a bunch of YouTube videos.</p>
+	<button type="button" onclick="styleChange3 ()">Click Me!</button>
+	<br/>
+	<p id="script2">I feel so motivated today. I've just finished my homework that is due next week. I will study for a couple more hours while this lasts.</p>
+	<button type="button" onclick="newFunction1 ()">Click Me!</button>
+	
+	<script>
+	function newFunction() {
+			document.getElementById("script1").innerHTML = "It worked!";
+	}
+	
+	function styleChange1() {
+			var x = document.getElementById("styleChange1");
+			x.style.fontSize = "25px";           
+			x.style.color = "red"; 
+	}
+	
+	function styleChange2() {
+			var x = document.getElementById("styleChange2");
+			x.style.fontSize = "40px";
+			x.style.color = "pink";
+			x.style.backgroundColor = "blue";
+	
+	}
+
+	function styleChange3() {
+			var x = document.getElementById("styleChange3");
+			x.style.fontSize = "12px";
+			x.style.backgroundColor = "green";
+	
+	}
+
+	function newFunction1() {
+			document.getElementById("script2").innerHTML = "Just joking! I haven't done anything today either.";
+	}
+	</script>
+	</body>
+</html>

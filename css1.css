@@ -1,0 +1,43 @@
+table{
+	border-width: thin;
+	border-color: black;
+	border-style: solid;
+	}
+.tablehead 	{
+			background-color: black;
+			color: white;
+			}
+			
+a:link {
+	font-size: 500px;
+		}
+a:visited {
+		background-color: blue;
+		}
+a:hover {
+	background-color: blue;
+		}
+a:active {
+	font-size: 1px;
+}
+
+.second {
+	background-color: red;
+		}
+
+.work {
+	color: green;
+		}
+
+.evening {
+	font-size: 10px;
+		}
+
+.night {
+	text-decoration: overline;
+		}
+
+.tennis {
+	text-decoration: line-through;
+		}
+

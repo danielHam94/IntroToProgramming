@@ -1,0 +1,90 @@
+.riddle {
+	border-style: double;
+	border-width: 2px;
+	border-color: green;
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+
+.dumbledore {
+	margin: 0.5in 2in 1.5in 2in;
+	border-style: dashed;
+	border-width: 7px;
+	border-color: purple;
+	padding-right: 3px;
+	padding-left: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.iucrimson{
+	color:red;
+}
+
+.purdueyellow{
+	color:yellow;
+}
+
+.iphone{
+	font-family: fantasy;
+	color:pink;
+}
+.harry {
+	margin: 2in 1in 1.5in 2in;
+	font-style: italic;
+	font-size: 40px;
+	color: white;
+	background-color: red;
+	border-style: double;
+	border-width: 2px;
+	border-color: green;
+	padding-right: 4px;
+	padding-left: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.hedwig {
+	margin: 0.1in;
+	font-family: "Times New Roman", Times, serif;
+	font-style: oblique;
+	color: yellow;
+	background-color: blue;
+	border-style: double;
+	border-width: 2px;
+	border-color: green;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.wand {
+	margin: 0.7in 1.3in;
+	font-size: 50px;
+	font-family: cursive;
+	color: brown;
+	background-color: orange;
+	border-style: double;
+	border-width: 4px;
+	border-color: yellow;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.spell {
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 30px;
+	color: pink;
+	background-color: black;
+	border-style: double;
+	border-width: 4px;
+	border-color: yellow;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
